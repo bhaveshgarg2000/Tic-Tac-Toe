@@ -1,0 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #7e8d7e;
+  font-family: "Macondo", cursive;
+}
