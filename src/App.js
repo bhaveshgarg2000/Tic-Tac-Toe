@@ -3,6 +3,7 @@ import "./App.css";
 import Board from "./Components/Board";
 import ScoreBoard from "./Components/ScoreBoard";
 import ResetBoard from './Components/ResetBoard';
+import Footer from './Components/Footer';
 function App() {
   const WIN_COND = [
     [0, 1, 2],
@@ -63,11 +64,12 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <>
       <ScoreBoard scores={scores} xPlaying={xPlaying} />
       <Board board={board} onClick={gameOver ? resetBoard : handleBoxClick} />
-      <ResetBoard resetBoard = {resetBoard}/>
-    </div>
+      <ResetBoard resetBoard={resetBoard} />
+      <Footer />
+    </>
   );
 }
 
