@@ -65,6 +65,9 @@ function App() {
 
   return (
     <>
+    <div className="tic">
+      Tic Tac Toe
+    </div>
       <ScoreBoard scores={scores} xPlaying={xPlaying} />
       <Board board={board} onClick={gameOver ? resetBoard : handleBoxClick} />
       <ResetBoard resetBoard={resetBoard} />

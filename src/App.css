@@ -1,4 +1,6 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 body {
@@ -10,13 +12,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 90px;
+  padding-top: 15px;
 }
 .icons {
   color: black;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 80px;
-  padding-right: 20px;
+  /* padding-top: 80px; */
+  padding-right: 25px;
+}
+.tic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding-top: 20px;
 }
